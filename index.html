@@ -3,8 +3,6 @@
 <title>Mohammadreza Davoodi</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,7 +10,7 @@
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 .bgimg {
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('./mypic.jpg');
@@ -35,6 +33,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
     <!-- <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a> -->
     <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#works" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Courses</a>
+    <a href="#donate" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Donate</a>
     <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
   </div>
 </nav>
@@ -48,7 +48,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- Header -->
   <header class="w3-container w3-center" style="padding:128px 16px" id="home">
     <h1 class="w3-jumbo"><b>Mohammadreza Davoodi</b></h1>
-    <p>Artificial Intelligence Student and Writer.</p>
+    <p>Artificial Intelligence Developer</p>
     <img src="./mypic.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
     <img src="./mypic.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
     <!--
@@ -93,11 +93,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
     <h2>About</h2>
     <hr class="w3-opacity">
-    <p>Studying Artificial Intelligence as an MSc. student in Iran University of Science and Technology focusing on Image Proccessing and Computer Vision.
-      Graduated in Electrical Engineering focusing on Communication field from Isfahan University of Technology.
+    <p>I graduated form Iran University of Science and Technology with an MSc. degree in Artificial Intelligence and Robotics focusing on Image Processing and Computer Vision.
+      also graduated from Isfahan University of Technology with a BSc. degree in Electrical Engineering focusing on Communication field.
       Interested in designing and implementing smart systems :)
     </p>
-    <p> I also sometimes write something on the paper. I will share you those writings in this website. Please comment on them. Your comments are valuable to me.</p>
     <!--
     <h3 class="w3-padding-16">My Skills</h3>
     <p class="w3-wide">Programming</p>
@@ -199,6 +198,23 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- End About Section -->
   </div>
 
+    <!-- Works Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="works" style="margin-bottom:64px">
+    <h2>My Works</h2>
+    <hr class="w3-opacity">
+    <h3>Courses (دوره ها)</h3>
+    <h4><a href="https://www.aparat.com/v/hjE8L">پایتون برای مهندسی و علوم پایه(آپارات)</a></h4>
+    <h4><a href="https://www.youtube.com/watch?v=3uXLaxGK5Sw&list=PLvHKiCKK8MY9Le7_Xw_TbqCkxJk68MoLL">پایتون برای مهندسی و علوم پایه(یوتیوب)</a></h4>
+    <h3>Podcasts (پادکست ها)</h3>
+    <h4><a href="https://castbox.fm/app/castbox/player/id4426407?v=8.22.11&autoplay=0">بازخوانی داستان های کوتاه</a></h4>
+    
+    <!-- Donate Section -->
+    <div class="w3-padding-32 w3-content w3-text-grey" id="donate" style="margin-bottom:64px">
+    <h2>Donate</h2>
+    <hr class="w3-opacity">
+    <h4><a href="https://zarinp.al/mrdavoodi">Donate me (حمایت از من)</a></h4>  
+    <p>:) حمایت شما انگیزه ای خواهد بود برای ادامه ی کار و همچنین تولید محتواهای غنی تر</p>
+
   <!-- Contact Section -->
   <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
     <h2>Contact Me</h2>
@@ -206,7 +222,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     <div class="w3-section">
       <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Tehran, Iran</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: me@mrdavoodi.ir</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:me@mrdavoodi.ir">me@mrdavoodi.ir</a></p>
     </div>
     
     <!-- Image of location/map -->
@@ -233,13 +249,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
     <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i> -->
-    <a href="https://www.instagram.com/m.r.davoodi/" class="fa fa-instagram w3-hover-opacity"></a>
+    <a href="https://www.instagram.com/mrdavoodi.ir/" class="fa fa-instagram w3-hover-opacity"></a>
     <!--<i class="fa fa-snapchat w3-hover-opacity"></i>-->
     <!--<i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
     <a href="https://twitter.com/mr__davoodi" class="fa fa-twitter w3-hover-opacity"></a>
     <a href="https://www.linkedin.com/in/mrdavoodi/" class="fa fa-linkedin w3-hover-opacity"></a>
-    <a href="https://t.me/m_r_davoodi/" class="fab fa-telegram w3-hover-opacity"></a>
-    <a href="https://github.com/mrdavoodi/" class="fab fa-github w3-hover-opacity"></a>
+    <a href="https://t.me/m_r_davoodi/" class="fa fa-telegram w3-hover-opacity"></a>
+  <a href="https://www.youtube.com/channel/UCEYdhAGEjdgmWDSKqrDPkrA" class="fa fa-youtube w3-hover-opacity"></a>
+    <a href="https://github.com/mrdavoodi/" class="fa fa-github w3-hover-opacity"></a>
     <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
     <br>
     <!-- Statistics by www.1abzar.com --->
